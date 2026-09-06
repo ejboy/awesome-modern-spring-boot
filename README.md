@@ -50,7 +50,7 @@ Spring Boot uses [Micrometer](https://docs.micrometer.io/micrometer/reference/in
 
 ## Logging
 
-- Spring Boot structured logging - Consider Boot's built-in structured logging before adding another dependency or logging system purely to obtain structured output.
+- [Spring Boot structured logging](https://docs.spring.io/spring-boot/reference/features/logging.html) - Consider Boot's built-in structured logging before adding another dependency or logging system purely to obtain structured output.
 
 ## Local development
 
@@ -58,7 +58,7 @@ Spring Boot uses [Micrometer](https://docs.micrometer.io/micrometer/reference/in
 
 ## Packaging and deployment
 
-- Spring Boot + Cloud Native Buildpacks - Spring Boot's Maven and Gradle plugins can create OCI-compatible container images using Cloud Native Buildpacks. This can avoid maintaining a custom Dockerfile for straightforward deployments, while Dockerfiles remain useful when a deployment needs more control.
+- [Spring Boot + Cloud Native Buildpacks](https://docs.spring.io/spring-boot/reference/packaging/container-images/cloud-native-buildpacks.html) - Spring Boot's Maven and Gradle plugins can create OCI-compatible container images using Cloud Native Buildpacks. This can avoid maintaining a custom Dockerfile for straightforward deployments, while Dockerfiles remain useful when a deployment needs more control.
 
 ## Upgrades and maintenance
 
@@ -80,7 +80,7 @@ Expose the operational endpoints that are actually required rather than everythi
 
 ### Test against real infrastructure
 
-Where practical, use real infrastructure through Testcontainers rather than behaviorally different substitutes.
+Where practical, use real infrastructure through [Testcontainers](https://java.testcontainers.org/) rather than behaviorally different substitutes.
 
 ### Version database changes
 
