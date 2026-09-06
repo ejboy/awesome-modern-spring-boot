@@ -42,9 +42,9 @@ This is a curated list, not an exhaustive directory. Lightweight is a preference
 
 ## Metrics, health and monitoring
 
-Spring Boot uses Micrometer as its standard metrics abstraction, while Actuator provides production health and management endpoints. Production metrics should use an appropriate Micrometer registry or export path for the monitoring system in use. The generic `/actuator/metrics` endpoint is primarily useful for diagnostics and inspection, rather than as the preferred production metrics collection interface.
+Spring Boot uses [Micrometer](https://docs.micrometer.io/micrometer/reference/index.html) as its standard metrics abstraction, while [Actuator](https://docs.spring.io/spring-boot/reference/actuator/index.html) provides production health and management endpoints. Production metrics should use an appropriate Micrometer registry or export path for the monitoring system in use. The generic [`/actuator/metrics`](https://docs.spring.io/spring-boot/reference/actuator/metrics.html) endpoint is primarily useful for diagnostics and inspection, rather than as the preferred production metrics collection interface.
 
-- Spring Boot Actuator - Spring Boot's production-ready foundation for application health and management. Use it for health and other operational endpoints, exposing only the endpoints actually needed in production.
+- [Spring Boot Actuator](https://docs.spring.io/spring-boot/reference/actuator/index.html) - Spring Boot's production-ready foundation for application health and management. Use it for health and other operational endpoints, exposing only the endpoints actually needed in production.
 - [Micrometer](https://micrometer.io/) - Spring Boot's standard metrics facade and the basis for its built-in application, JVM, system, HTTP, and other metrics. Instrument and report metrics through Micrometer, using the appropriate registry or export mechanism for the monitoring system in use.
 - [StatLite](https://github.com/PVRLabs/statlite) - Lightweight, self-hosted monitoring for a small number of Spring Boot applications and hosts, without requiring a larger monitoring stack. Focused on application health, latency, errors, JVM metrics, and basic host monitoring.
 
@@ -54,7 +54,7 @@ Spring Boot uses Micrometer as its standard metrics abstraction, while Actuator 
 
 ## Local development
 
-- Spring Boot Docker Compose support - Built-in Spring Boot functionality for integrating with Compose-based development services and reducing custom local-development configuration and startup glue.
+- [Spring Boot Docker Compose support](https://docs.spring.io/spring-boot/reference/features/dev-services.html) - Built-in Spring Boot functionality for integrating with Compose-based development services and reducing custom local-development configuration and startup glue.
 
 ## Packaging and deployment
 
