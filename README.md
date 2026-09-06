@@ -6,6 +6,8 @@ An opinionated, actively maintained collection of **modern, lightweight tools an
 
 This is a curated list, not an exhaustive directory. Lightweight is a preference, not a strict admission requirement.
 
+The list favors approaches that remain practical in small, self-hosted, and resource-constrained deployments, while still being useful for larger applications.
+
 ## Philosophy
 
 * **Spring Boot 4.x+ first.** Older versions are not the focus.
