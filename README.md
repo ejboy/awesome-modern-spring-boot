@@ -26,6 +26,7 @@ The list favors approaches that remain practical in small, self-hosted, and reso
 ## Architecture
 
 - [Spring Modulith](https://spring.io/projects/spring-modulith) - Tooling for structuring modular Spring applications and verifying module boundaries. A modular application is often worth considering before splitting an application into distributed services.
+- [WireDoctor](https://github.com/ddsha441981/wiredoctor) - Runtime analysis of the resolved Spring Boot bean graph. Reports unused beans, startup critical-path timing, and bean cycles from a single development-time dependency, with an optional baseline diff that can fail CI on architectural regressions.
 
 ## Database migrations and data
 
