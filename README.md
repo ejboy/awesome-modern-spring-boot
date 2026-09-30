@@ -117,6 +117,8 @@ This list has a high inclusion bar and is editorial rather than exhaustive. Self
 
 For broader lightweight and efficiency-focused developer tooling, see [Awesome Efficient Devtools](https://github.com/ejboy/awesome-efficient-devtools).
 
+For deployment and operations guidance for self-hosted Java and JVM applications, see [Awesome Java Self-Hosting](https://github.com/ejboy/awesome-java-self-hosting).
+
 ## Maintainer note
 
 The maintainer builds some of the listed tools through [PVR Labs](https://pvrlabs.xyz/). Those tools are included under the same editorial criteria as every other project here.
