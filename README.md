@@ -22,6 +22,7 @@ The list favors approaches that remain practical in small, self-hosted, and reso
 ## Project setup
 
 - [Spring Initializr](https://start.spring.io/) - The standard minimal starting point for a Spring Boot application. Start with the dependencies actually needed rather than a large template.
+- [CoilBase](https://github.com/PVRLabs/coilbase) - Lightweight Java application foundation for developers seeking a Spring Boot alternative, with familiar controller, service, and repository organization, SQL-first persistence, and explicit transactions. See the [Spring Boot comparison](https://github.com/PVRLabs/coilbase/blob/main/docs/comparison-with-spring-boot.md) for trade-offs.
 
 ## Architecture
 
